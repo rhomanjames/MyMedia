@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Body from '../components/Body'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex bg-gray-50 flex-col items-center justify-center">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -11,7 +12,7 @@ export default function Home() {
       {/*Header*/}
       <Header />
       {/*Home Body*/}
-
+      <Body />
       {/*Home Footer*/}
     </div>
   )
