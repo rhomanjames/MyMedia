@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       {/*Home*/}
-        <div className="flex ml-20 flex-col">
+        <div className="flex hidden ml-20 flex-col">
           <div> 
             <h1 className="pl-8 py-4 flex align-left w-full border-gray-500 bg-white text-lg font-bold">Recipes<CollectionIcon className="h-6 ml-2 text-yellow-500 hover:animate-pulse" /> </h1>
           </div>

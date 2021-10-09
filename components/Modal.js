@@ -18,10 +18,12 @@ function Modal() {
     }
 
     return (
-        <div id="mymodal" class="w-full hidden h-full backdrop-blur justify-center fixed bg-opacity-50 bg-black z-40">
+        <div id="mymodal" class="w-full hidden h-full backdrop-blur justify-center fixed bg-opacity-50 bg-white z-40">
             <div class="flex justify-center w-full">
-            <XIcon onClick={closemodal} className="absolute right-4 top-4 h-10 text-white cursor-pointer" />
+            <XIcon onClick={closemodal} className="absolute right-4 top-4 h-10 text-black cursor-pointer" />
             <iframe
+            picture-in-picture
+            rel="0"
             allowfullscreen
             id="iframe"
             className=" mt-8"

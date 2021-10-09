@@ -6,7 +6,7 @@ import { DocumentTextIcon, VideoCameraIcon, CollectionIcon, PuzzleIcon, MusicNot
 
 function Music() {
     return (
-        <div className="pl-20 bg-white flex-col w-full flex">
+        <div className="pl-20 hidden bg-gray-50 flex-col w-full flex">
             <div className="">
                 {/*Title and Music Header*/}
                 <div className="align-left flex flex-col">

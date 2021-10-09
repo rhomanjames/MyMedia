@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       {/*Home*/}
-        <div className="flex ml-20 bg-green-300 flex-col ">
+        <div className="flex ml-20 hidden bg-green-300 flex-col ">
                     {/*Trending*/}
                     <h1 className="p-4 flex w-full border-gray-500 bg-white text-lg font-bold">Trending Now <FireIcon className="h-6 ml-2 text-yellow-500 hover:animate-pulse" /> </h1>
                      {/*New*/}

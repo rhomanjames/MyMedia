@@ -15,9 +15,9 @@ function Body() {
             <div className="flex w-full flex-grow justify-top z-0 justify-center bg-gray-50">
             <Modal id="mymodal" className="z-20"/>
                 {/*Side Drawer*/}
-                <div className="w-20 fixed z-10 left-0 p-4 shadow-md h-full bg-white">
+                <div id="menu" className="w-20 hidden fixed z-10 left-0 p-4 shadow-md h-full bg-white">
                     <ul className="space-y-8 text-xs pt-8 text-center justify-center flex flex-col">
-                        <li className="items-center flex  text-gray-500 flex-col hover:text-yellow-400 cursor-pointer transition"><VideoCameraIcon className="h-6"/><h4>Videos</h4></li>
+                        <li href="#trending" className="items-center flex  text-gray-500 flex-col hover:text-yellow-400 cursor-pointer transition"><FireIcon className="h-6"/><h4>Trending</h4></li>
                         <li className="items-center flex text-gray-500 hover:text-yellow-400 cursor-pointer transition flex-col"><DocumentTextIcon className="h-6"/><h4>Articles</h4></li>                        
                         <li className="items-center flex  text-gray-500 flex-col hover:text-yellow-400 cursor-pointer transition"><CollectionIcon className="h-6"/><h4>Recipes</h4></li>
                         <li className="items-center flex text-gray-500 flex-col hover:text-yellow-400 cursor-pointer transition"><PuzzleIcon className="h-6"/><h4>Kids</h4></li>
@@ -30,7 +30,7 @@ function Body() {
                     <div className="flex w-full flex-col">
                         < Home />
                         < Videos/>
-                        < Articles />
+                        < Articles className="hidden" />
                         < Recipes/>
                         < Kids className="hidden" />
                         < Music className="hidden" />

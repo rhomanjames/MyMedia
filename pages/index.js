@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex bg-gray-50 flex-col items-center justify-center">
       <Head>
-        <title>Create Next App</title>
+        <title>Serving Yah</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/*Header*/}

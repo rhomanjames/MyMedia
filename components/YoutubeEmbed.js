@@ -17,7 +17,7 @@ const YoutubeEmbed = ({ embedID, title, author }) => (
 
         modal.classList.remove('hidden')
 
-        iframe.src = `https://www.youtube.com/embed/${embedID}?modestbranding=1&autohide=1&showinfo=0`}}
+        iframe.src = `https://www.youtube.com/embed/${embedID}?modestbranding=1&autohide=1&autoplay=1&rel=1&showinfo=0`}}
   
    className="p-4 cursor-pointer border-2 border-transparent hover:border-gray-200 transition">
     <Image 

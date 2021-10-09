@@ -3,10 +3,13 @@ import {PauseIcon, FastForwardIcon, RewindIcon, HeartIcon} from '@heroicons/reac
 
 function Footer() {
 
-    function mySong (props) {
-        document.getElementById('artistName').innerHTML = `${props.title}`}
+    function mySong () {
+        new Audio('https://www.computerhope.com/jargon/m/example.mp3').play();
+        
+    }
+
     return (
-        <header className="flex w-full z-10 sticky absolute shadow-md bg-gray-50 border-gray-200 border-t-2 py-2 bottom-0 px-4">
+        <header className="flex w-full hidden z-10 sticky absolute shadow-md bg-gray-50 border-gray-200 border-t-2 py-2 bottom-0 px-4">
             <div className="place-items-center w-1/4 flex">
                 <p className="font-bold">Alive 2020 |</p> <br />
                 <p id="artistName">| Darak iBar</p>
